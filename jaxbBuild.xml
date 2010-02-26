@@ -1,13 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
-<!--
-  Copyright 2004 Sun Microsystems, Inc. All rights reserved.
--->
+
 <project basedir="." default="run">
   <description>
       This sample application demonstrates how to unmarshal an instance document
       into a Java content tree and access data contained within it.
     </description>
-  <property name="jaxb.home" value="../.." />
+  <property name="jaxb.home" value="." />
   <path id="classpath">
     <pathelement path="src" />
     <pathelement path="classes" />
@@ -45,13 +43,12 @@
     <echo message="Generating javadoc..." />
     <mkdir dir="docs/api" />
     <javadoc sourcepath="gen-src" destdir="docs/api" windowtitle="Using unmarshaller (formerly SampleApp1)" useexternalfile="yes">
-      <fileset dir="." includes="gen-src/**/*.java" excludes="**/impl/**/*.java" />
+      <fileset dir="." includes="src/**/*.java" excludes="**/impl/**/*.java" />
     </javadoc>
   </target>
 
   <target name="clean" description="Deletes all the generated artifacts.">
     <delete dir="docs/api" />
-    <delete dir="gen-src" />
     <delete dir="schemas" />
     <delete dir="classes" />
   </target>

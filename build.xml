@@ -18,7 +18,7 @@
     <taskdef name="jaxb" classname="com.sun.tools.xjc.XJCTask">
         <classpath refid="build.classpath"/>
     </taskdef>
-
+<!--java -jar lib\trang.jar sampleGDP.xml wow.xsd-->
 
     <target name="compile-jaxb" description="Compile xsd files into java classes">
         <jaxb schema="web/WEB-INF/resources/gdpMessageFormat.xsd" destdir="src/production/" package="economics.model"/>

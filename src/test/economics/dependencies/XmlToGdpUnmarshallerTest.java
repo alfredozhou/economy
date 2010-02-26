@@ -3,6 +3,8 @@ package economics.dependencies;
 import economics.MockitoTestCase;
 import economics.model.Observations;
 
+import java.math.BigDecimal;
+
 public class XmlToGdpUnmarshallerTest extends MockitoTestCase {
     private final static String messageFromFed = "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" +
             "<observations realtime_start=\"2010-01-18\" realtime_end=\"2010-01-18\" observation_start=\"1776-07-04\" observation_end=\"9999-12-31\" units=\"lin\" output_type=\"1\" file_type=\"xml\" order_by=\"observation_date\" sort_order=\"asc\" count=\"80\" offset=\"0\" limit=\"100000\"> " +
@@ -12,8 +14,9 @@ public class XmlToGdpUnmarshallerTest extends MockitoTestCase {
 
     public void testConvertXmlToObject() {
         XmlToGdpUnmarshaller unmarshallerXmlTo = new XmlToGdpUnmarshaller();
-        Observations observations = unmarshallerXmlTo.convertGdpFromXmlToObject(messageFromFed);
+        economics.model.Observations observations = unmarshallerXmlTo.convertGdpFromXmlToObject(messageFromFed);
         assertNotNull(observations);
         assertCollectionSizeEquals(2, observations.getObservation());
+        assertEquals(new BigDecimal(841.5), observations.getObservation().get(0).getValue());
     }
 }
