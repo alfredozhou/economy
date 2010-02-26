@@ -292,11 +292,13 @@
         <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxb1-impl.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/libsrc/jaxb-api-src.zip!/" />
         <root url="jar://$PROJECT_DIR$/libsrc/jaxb-impl.src.zip!/" />
+        <root url="jar://$PROJECT_DIR$/libsrc/jaxb1-impl-src.zip!/" />
       </SOURCES>
     </library>
   </component>

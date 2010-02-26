@@ -17,4 +17,8 @@ public abstract class MockitoTestCase extends TestCase {
     public static void assertCollectionSizeGreaterThan(int expected, List<Observation> actual) {
         assertTrue("the actual list size should be greater than "+expected+" but was "+actual.size(), actual.size()> expected);
     }
+
+     public static void assertCollectionSizeEquals(int expected, List<Observation> actual) {
+        assertEquals("the actual list size should be greater than "+expected+" but was "+actual.size(), expected, actual.size());
+    }
 }
