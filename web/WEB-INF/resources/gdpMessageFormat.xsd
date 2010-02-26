@@ -1,0 +1,49 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="limit" type="xsd:nonNegativeInteger"/>
+    <xsd:element name="offset" type="xsd:nonNegativeInteger"/>
+    <xsd:element name="count" type="xsd:nonNegativeInteger"/>
+    <xsd:element name="sort_order" type="xsd:string"/>
+    <xsd:element name="order_by" type="xsd:string"/>
+    <xsd:element name="file_type" type="xsd:string"/>
+    <xsd:element name="output_type" type="xsd:string"/>
+    <xsd:element name="units" type="xsd:string"/>
+    <xsd:element name="realtime_start" type="xsd:date"/>
+    <xsd:element name="realtime_end" type="xsd:date"/>
+    <xsd:element name="value" type="xsd:double"/>
+    <xsd:element name="observation_start" type="xsd:date"/>
+    <xsd:element name="observation_end" type="xsd:date"/>
+    <xsd:element name="date" type="xsd:date"/>
+
+    <xsd:element name="observation">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="realtime_start"/>
+                <xsd:element ref="realtime_end"/>
+                <xsd:element ref="date"/>
+                <xsd:element ref="value"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="observations">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="realtime_start"/>
+                <xsd:element ref="realtime_end"/>
+                <xsd:element ref="observation_start"/>
+                <xsd:element ref="observation_end"/>
+                <xsd:element ref="units"/>
+                <xsd:element ref="output_type"/>
+                <xsd:element ref="file_type"/>
+                <xsd:element ref="order_by"/>
+                <xsd:element ref="sort_order"/>
+                <xsd:element ref="count"/>
+                <xsd:element ref="limit"/>
+                <xsd:element ref="offset"/>
+                <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+                    <xsd:element ref="observation"/>
+                </xsd:sequence>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

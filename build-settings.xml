@@ -1,0 +1,4 @@
+<project name="economy-settings">
+<property name="appserver.home" value="C:\Users\zxzhou\Tools\apache-tomcat-6.0.20"/>
+<property name="appserver.lib" value="${appserver.home}/lib"/>
+</project>
