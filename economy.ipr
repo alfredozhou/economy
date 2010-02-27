@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
+<project relativePaths="false" version="4">
   <component name="AntConfiguration">
     <defaultAnt bundledAnt="true" />
   </component>
@@ -23,8 +23,13 @@
   <component name="BuildJarProjectSettings">
     <option name="BUILD_JARS_ON_MAKE" value="false" />
   </component>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS" />
+    <option name="USE_PER_PROJECT_SETTINGS" value="false" />
+  </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
+    <option name="DEPLOY_AFTER_MAKE" value="0" />
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />
       <entry name=".+\.(gif|png|jpeg|jpg)" />
@@ -41,7 +46,6 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="false" useClasspath="true" />
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -56,6 +60,9 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="IdProvider" IDEtalkID="08B6A78F3F1B272CE94073344B91777E" />
   <component name="InspectionProjectProfileManager">
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
+    <scopes />
     <profiles>
       <profile version="1.0" is_locked="false">
         <option name="myName" value="Project Default" />
@@ -67,9 +74,14 @@
         </inspection_tool>
       </profile>
     </profiles>
-    <option name="PROJECT_PROFILE" value="Project Default" />
-    <option name="USE_PROJECT_PROFILE" value="true" />
-    <version value="1.0" />
+    <list size="0" />
+  </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="DEPRECATION" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
@@ -215,6 +227,7 @@
   <component name="ProjectDictionaryState">
     <dictionary name="cyrus" />
   </component>
+  <component name="ProjectFileVersion" converted="true" />
   <component name="ProjectKey">
     <option name="state" value="project://C:\Users\zxzhou\IdeaProjects\economy\economy.ipr" />
   </component>
@@ -233,6 +246,13 @@
       </value>
     </option>
   </component>
+  <component name="RmicSettings">
+    <option name="IS_EANABLED" value="false" />
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_IIOP_STUBS" value="false" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+  </component>
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
@@ -245,64 +265,15 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
-    <library name="hibernate3">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/hibernate.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/hibernate-annotations.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/cglib.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/dom4j.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/antlr.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-2.5.6">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/commons-logging_1.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/velocity-1.6.3.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/libsrc/spring-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/libsrc/spring-webmvc-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="mockito">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/mockito-all-1.8.0.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/lib/mockito-all-1.8.0.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="jaxb">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-xjc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb1-impl.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/libsrc/jaxb-api-src.zip!/" />
-        <root url="jar://$PROJECT_DIR$/libsrc/jaxb-impl.src.zip!/" />
-        <root url="jar://$PROJECT_DIR$/libsrc/jaxb1-impl-src.zip!/" />
-      </SOURCES>
-    </library>
     <library name="everything">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/lib" />
+        <root url="file://$PROJECT_DIR$/web/WEB-INF" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
       <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF" recursive="false" />
     </library>
   </component>
 </project>

@@ -9,7 +9,9 @@ import javax.xml.bind.Unmarshaller;
 import javax.xml.transform.stream.StreamSource;
 import java.io.StringReader;
 
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class XmlToGdpUnmarshaller {
     private Unmarshaller unmarshaller;
 

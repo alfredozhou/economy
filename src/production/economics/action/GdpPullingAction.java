@@ -27,7 +27,7 @@ public class GdpPullingAction {
 
     @RequestMapping("/gdp")
     public ModelAndView performAction() throws IOException {
-       return new ModelAndView("gdp").addObject(getGDPDataFromFed());
+       return new ModelAndView("gdp").addObject("observations", getGDPDataFromFed());
     }
 
     public Observations getGDPDataFromFed() throws IOException {
