@@ -1,10 +1,9 @@
 package economics;
 
 import org.mortbay.component.AbstractLifeCycle;
-import org.mortbay.jetty.webapp.WebAppContext;
-import org.mortbay.jetty.handler.ContextHandlerCollection;
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.servlet.ServletHolder;
+import org.mortbay.jetty.webapp.WebAppContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
 

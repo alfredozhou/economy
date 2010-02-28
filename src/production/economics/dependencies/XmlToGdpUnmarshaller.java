@@ -1,15 +1,12 @@
 package economics.dependencies;
 
 import economics.model.Observations;
-import economics.model.ObjectFactory;
+import org.springframework.stereotype.Repository;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.transform.stream.StreamSource;
 import java.io.StringReader;
-
-import org.springframework.stereotype.Repository;
 
 @Repository
 public class XmlToGdpUnmarshaller {

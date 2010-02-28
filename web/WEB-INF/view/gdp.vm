@@ -26,7 +26,6 @@
         <td class="cellBody">$observation.value</td>
     </tr>
     #end
-
 </table>
 </body>
 </html>
