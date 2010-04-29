@@ -1,4 +1,4 @@
-#* @vtlvariable name="observations" type="economics.model.Observations" *#
+#* @vtlvariable name="observations" type="java.util.List<economics.model.Observation>" *#
 <html>
 <head>
     <title>GDP</title>
@@ -20,7 +20,7 @@
         <td class="BodyTableHeader">US GDP in Billions</td>
     </tr>
 
-    #foreach ($observation in $observations.Observation)
+    #foreach ($observation in $observations)
     <tr>
         <td class="cellBody">$observation.date</td>
         <td class="cellBody">$observation.value</td>
