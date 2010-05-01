@@ -24,13 +24,12 @@ public class GDPRepository {
       this.puller = gdpPuller;
    }
 
-   private void saveGdpIntoDatabase() {
+   public void saveGdpIntoDatabase() {
       List<Observation> gdpPerYear = puller.getGDPsFromFed();
       databaseSession.save(gdpPerYear);    
    }
 
    public List<Observation> getGdpFromDb() {
-      saveGdpIntoDatabase();
       return databaseSession.list(Observation.class);
    }
 }

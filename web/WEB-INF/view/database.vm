@@ -1,0 +1,29 @@
+#* @vtlvariable name="sqls" type="java.util.List<economics.dependencies.schemamigrations.SqlScript>" *#
+<html>
+<head>
+    <title>GDP</title>
+    <style>
+        .BodyTableHeader {
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 18pt;
+        }
+        .cellBody {
+            border: 1px aqua;
+        }
+    </style>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="3" cellspacing="0" class="BodyTable">
+    <tr>
+        <td class="BodyTableHeader">Scripts</td>
+    </tr>
+
+    #foreach ($sql in $sqls)
+    <tr>
+        <td class="cellBody">$sql.versionNumber()</td>
+    </tr>
+    #end
+</table>
+</body>
+</html>

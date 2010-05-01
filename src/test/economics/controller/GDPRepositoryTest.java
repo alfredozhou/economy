@@ -16,7 +16,9 @@ public class GDPRepositoryTest extends MockitoTestCase {
 
    public void testPullGDPFromFedWillStoreData() throws Exception {
       InOrder order = Mockito.inOrder(gdpMaker, database);
-      new GDPRepository(database, gdpMaker);
+      GDPRepository repository = new GDPRepository(database, gdpMaker);
+      repository.saveGdpIntoDatabase();
+
       order.verify(gdpMaker).getGDPsFromFed();
       order.verify(database).save(Mockito.anyList());
    }
