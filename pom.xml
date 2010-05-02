@@ -8,6 +8,19 @@
     <build> <!-- we dont want the version to be part of the generated war file name -->
         <finalName>${artifactId}</finalName>
     </build>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <layout>default</layout>
+            <url>http://repo1.maven.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.hibernate</groupId>

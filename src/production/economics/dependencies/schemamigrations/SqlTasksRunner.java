@@ -3,6 +3,8 @@ package economics.dependencies.schemamigrations;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.*;
 
 /**
@@ -11,32 +13,25 @@ import java.util.*;
  */
 @Repository
 public class SqlTasksRunner {
-   private DatabaseProperties dbProperties;
+    private RawDatabaseConnection databaseConnection;
 
-   @Autowired
-   public SqlTasksRunner(DatabaseProperties properties) {
-      this.dbProperties = properties;
-   }
 
-   public void runTasks(List<SqlScript> scripts) {
-      SqlExecutor sqlExecutor = makeSqlTaskExecutor();
-      for (SqlScript script : scripts) {
-         addSqlScripts(script, sqlExecutor);
-      }
-      sqlExecutor.execute();
-   }
+    @Autowired
+    public SqlTasksRunner(RawDatabaseConnection databaseConnection) {
+        this.databaseConnection = databaseConnection;
+    }
 
-   private SqlExecutor makeSqlTaskExecutor() {
-      SqlExecutor sqlTaskExecutor = new SqlExecutor();
-      sqlTaskExecutor.setDriver(dbProperties.driverName());
-      sqlTaskExecutor.setUrl(dbProperties.url());
-      sqlTaskExecutor.setUserid(dbProperties.userName());
-      sqlTaskExecutor.setPassword(dbProperties.password());
-      return sqlTaskExecutor;
-   }
+    public void runTasks(List<SqlScript> scripts) {
+        for (SqlScript script : scripts) {
+            try {
+                databaseConnection.runUpdate(script.getSql());
+                databaseConnection.runUpdate("UPDATE schema_version set version=" +script.versionNumber());
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 
-   private void addSqlScripts(SqlScript sqlTask, SqlExecutor executor) {
-      executor.createTransaction().setSrc(sqlTask.getSqlFile());
-      executor.createTransaction().addText("UPDATE schema_version set version='" + sqlTask.versionNumber() + "'");
-   }
 }

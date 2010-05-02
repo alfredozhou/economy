@@ -1,5 +1,6 @@
 package economics.action;
 
+import economics.controller.GDPRepository;
 import economics.dependencies.schemamigrations.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
@@ -15,20 +16,23 @@ import java.util.*;
  */
 @Controller
 public class DatabaseInitAction {
-   private DatabaseMigrator migrator;
-   private ScriptFileManager fileManager;
+    private DatabaseMigrator migrator;
+    private ScriptFileManager fileManager;
+    private GDPRepository repository;
 
-   @Autowired
-   public DatabaseInitAction(DatabaseMigrator migrator, ScriptFileManager fileManager) {
-      this.migrator = migrator;
-      this.fileManager = fileManager;
-   }
+    @Autowired
+    public DatabaseInitAction(DatabaseMigrator migrator, ScriptFileManager fileManager, GDPRepository repository) {
+        this.migrator = migrator;
+        this.fileManager = fileManager;
+        this.repository = repository;
+    }
 
-   @RequestMapping("/db")
-   public ModelAndView performAction() throws IOException {
-      List<SqlScript> scripts = fileManager.scriptsToExecute();
-      migrator.applyChanges();
-      return new ModelAndView("database").addObject("sqls", scripts);
-   }
+    @RequestMapping("/db")
+    public ModelAndView performAction() throws IOException {
+        List<SqlScript> scripts = fileManager.scriptsToExecute();
+        migrator.applyChanges();
+        repository.saveGdpIntoDatabase();
+        return new ModelAndView("database").addObject("sqls", scripts);
+    }
 }
 
