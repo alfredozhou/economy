@@ -4,14 +4,14 @@
     <session-factory> <!-- Database connection settings -->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-        <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.url">jdbc:sqlite:1.db</property>
-        <property name="connection.username">sa</property>
-        <property name="connection.password"/>
+        <property name="connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+        <property name="connection.url">jdbc:derby:database/derbyeconomy;create=true</property>
+        <property name="connection.username"></property>
+        <property name="connection.password"></property>
         <!-- JDBC connection pool (use the built-in) -->
         <property name="connection.pool_size">1</property>
         <!-- SQL dialect -->
-        <property name="dialect">framework.SQLiteDialect</property>
+        <property name="dialect">org.hibernate.dialect.DerbyDialect</property>
         <!-- Enable Hibernate's automatic session context management -->
         <property name="current_session_context_class">thread</property>
         <!-- Disable the second-level cache  -->

@@ -9,15 +9,15 @@ import org.springframework.stereotype.*;
 @Repository
 public class DatabaseProperties {
    public String driverName() {
-      return "org.sqlite.JDBC";
+      return "org.apache.derby.jdbc.EmbeddedDriver";
    }
 
    public String url() {
-      return "jdbc:sqlite:1.db";
+      return "jdbc:derby:database/derbyeconomy;create=true";
    }
 
    public String userName() {
-      return "sa";
+      return "";
    }
 
    public String password() {

@@ -1,1 +1,1 @@
-CREATE TABLE GDP (gdp_date varchar not null, value numeric, primary key (gdp_date));
+CREATE TABLE GDP (gdp_date VARCHAR(25) NOT NULL, value NUMERIC, PRIMARY KEY (gdp_date))

@@ -254,7 +254,7 @@
     <option name="deletePackageOccurrences" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
@@ -445,26 +445,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/code/google-collections/google-collect/snapshot-20080530/google-collect-snapshot-20080530-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.xerial:sqlite-jdbc:3.6.15">
+    <library name="Maven: org.apache.derby:derby:10.4.2.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.6.15/sqlite-jdbc-3.6.15.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.6.15/sqlite-jdbc-3.6.15-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.6.15/sqlite-jdbc-3.6.15-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.xerial.thirdparty:nestedvm:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/thirdparty/nestedvm/1.0/nestedvm-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/thirdparty/nestedvm/1.0/nestedvm-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/xerial/thirdparty/nestedvm/1.0/nestedvm-1.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

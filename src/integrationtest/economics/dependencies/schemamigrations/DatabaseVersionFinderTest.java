@@ -42,7 +42,7 @@ public class DatabaseVersionFinderTest {
    }
 
    private void seedSchemaVersionWith5() throws SQLException {
-      connectionMaker.runUpdate("create table schema_version (version integer);");
-      connectionMaker.runUpdate("insert into  schema_version (version) values (5);");
+      connectionMaker.runUpdate("create table schema_version (version integer)");
+      connectionMaker.runUpdate("insert into  schema_version (version) values (5)");
    }
 }

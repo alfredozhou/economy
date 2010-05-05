@@ -50,7 +50,10 @@ public class DatabaseSessionCreator {
 
    public <T> List<T> list(Class<T> classToList) {
       Session session = createSession();
-      //noinspection unchecked
-      return session.createCriteria(classToList).list();
+       session.beginTransaction();
+       //noinspection unchecked
+       List<T> list = session.createCriteria(classToList).list();
+       session.getTransaction().commit();
+       return list;
    }
 }

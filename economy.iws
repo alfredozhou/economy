@@ -54,11 +54,80 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="50a4ff33-07ce-4f99-a513-f3f45194ac3d" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME_GRAILS$/" />
+    <list default="true" readonly="true" id="50a4ff33-07ce-4f99-a513-f3f45194ac3d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/asm.jar" afterPath="$PROJECT_DIR$/lib/asm.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/activation.jar" afterPath="$PROJECT_DIR$/lib/activation.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/economy.iws" afterPath="$PROJECT_DIR$/economy.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsrc/spring-sources.jar" afterPath="$PROJECT_DIR$/libsrc/spring-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseProperties.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integrationtest/economics/controller/MessagePullerIntegrationTest.java" afterPath="$PROJECT_DIR$/src/integrationtest/economics/controller/MessagePullerIntegrationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spring-webmvc.jar" afterPath="$PROJECT_DIR$/lib/spring-webmvc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jaxb-impl.jar" afterPath="$PROJECT_DIR$/lib/jaxb-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/action/DatabaseInitAction.java" afterPath="$PROJECT_DIR$/src/production/economics/action/DatabaseInitAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/controller/GDPRepository.java" afterPath="$PROJECT_DIR$/src/production/economics/controller/GDPRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/dependencies/XmlToGdpUnmarshallerTest.java" afterPath="$PROJECT_DIR$/src/test/economics/dependencies/XmlToGdpUnmarshallerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/RawDatabaseConnection.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/RawDatabaseConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlScript.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlScript.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/production/economics/model/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/resources/database/1.sql" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/database/1.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/velocity-tools-generic-1.4.jar" afterPath="$PROJECT_DIR$/lib/velocity-tools-generic-1.4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/controller/GDPMaker.java" afterPath="$PROJECT_DIR$/src/production/economics/controller/GDPMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/hibernate.jar" afterPath="$PROJECT_DIR$/lib/hibernate.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/hibernate-annotations.jar" afterPath="$PROJECT_DIR$/lib/hibernate-annotations.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/action/GdpPullingAction.java" afterPath="$PROJECT_DIR$/src/production/economics/action/GdpPullingAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlScriptTest.java" afterPath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlScriptTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsrc/spring-webmvc-sources.jar" afterPath="$PROJECT_DIR$/libsrc/spring-webmvc-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/XmlToGdpUnmarshaller.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/XmlToGdpUnmarshaller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-settings.xml" afterPath="$PROJECT_DIR$/build-settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/economy.properties" afterPath="$PROJECT_DIR$/economy.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/antlr.jar" afterPath="$PROJECT_DIR$/lib/antlr.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/EconomicProperties.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/EconomicProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/log4j.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseMigrator.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseMigrator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jaxbBuild.xml" afterPath="$PROJECT_DIR$/jaxbBuild.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jaxb-xjc.jar" afterPath="$PROJECT_DIR$/lib/jaxb-xjc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jetty-util-6.1.14.jar" afterPath="$PROJECT_DIR$/lib/jetty-util-6.1.14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jaxb-api.jar" afterPath="$PROJECT_DIR$/lib/jaxb-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/economy.ipr" afterPath="$PROJECT_DIR$/economy.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlTasksRunnerTest.java" afterPath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlTasksRunnerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dom4j.jar" afterPath="$PROJECT_DIR$/lib/dom4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsrc/jaxb-api-src.zip" afterPath="$PROJECT_DIR$/libsrc/jaxb-api-src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/ScriptFileManagerTest.java" afterPath="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/ScriptFileManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jaxb1-impl.jar" afterPath="$PROJECT_DIR$/lib/jaxb1-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/economy.iml" afterPath="$PROJECT_DIR$/economy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/DatabaseSessionCreator.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/DatabaseSessionCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spring.jar" afterPath="$PROJECT_DIR$/lib/spring.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/mockito-all-1.8.0.jar" afterPath="$PROJECT_DIR$/lib/mockito-all-1.8.0.jar" />
+      <change type="DELETED" beforePath="C:\Users\zxzhou\IdeaProjects\economy\src\production\framework\SQLiteDialect.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/Observations.java" afterPath="$PROJECT_DIR$/src/production/economics/model/Observations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/ScriptFileManager.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/ScriptFileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/controller/GDPRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/economics/controller/GDPRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jetty-6.1.14.jar" afterPath="$PROJECT_DIR$/lib/jetty-6.1.14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integrationtest/economics/dependencies/schemamigrations/DatabaseVersionFinderTest.java" afterPath="$PROJECT_DIR$/src/integrationtest/economics/dependencies/schemamigrations/DatabaseVersionFinderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/database.vm" afterPath="$PROJECT_DIR$/web/WEB-INF/view/database.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/MockitoTestCase.java" afterPath="$PROJECT_DIR$/src/test/economics/MockitoTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cglib.jar" afterPath="$PROJECT_DIR$/lib/cglib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/controller/MessagePuller.java" afterPath="$PROJECT_DIR$/src/production/economics/controller/MessagePuller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/resources/Observations.hbm.xml" afterPath="$PROJECT_DIR$/src/production/resources/Observations.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseVersionFinder.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseVersionFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsrc/jaxb-impl.src.zip" afterPath="$PROJECT_DIR$/libsrc/jaxb-impl.src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsrc/jaxb1-impl-src.zip" afterPath="$PROJECT_DIR$/libsrc/jaxb1-impl-src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tomcat-juli.jar" afterPath="$PROJECT_DIR$/lib/tomcat-juli.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/Observation.java" afterPath="$PROJECT_DIR$/src/production/economics/model/Observation.java" />
+    </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="economy.iws" />
+    <ignored path="$USER_HOME_GRAILS$/" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +180,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/production/economics/action/DatabaseInitAction.java" line="31" class="economics.action.DatabaseInitAction" package="economics.action">
+      <breakpoint url="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java" line="26" class="economics.dependencies.schemamigrations.SqlTasksRunner" package="economics.dependencies.schemamigrations">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseVersionFinder.java" line="22" class="economics.dependencies.schemamigrations.DatabaseVersionFinder" package="economics.dependencies.schemamigrations">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -201,22 +283,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseProperties.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTaskRunner.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseMigrator.java" />
-        <option value="$PROJECT_DIR$/src/integrationtest/economics/dependencies/schemamigrations/DatabaseVersionFinderTest.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/controller/GDPRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/economics/controller/GDPRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/ScriptFileManager.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/RawDatabaseConnection.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/resources/database/1.sql" />
         <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlScript.java" />
-        <option value="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlTasksRunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/production/economics/action/DatabaseInitAction.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/database.vm" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/DatabaseSessionCreator.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/integrationtest/economics/dependencies/schemamigrations/DatabaseVersionFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseProperties.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseVersionFinder.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/RawDatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/resources/database/1.sql" />
+        <option value="$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlTasksRunnerTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -267,6 +349,11 @@
         <option name="mavenHome" value="C:\Users\zxzhou\Tools\apache-maven-2.2.1\bin" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -274,6 +361,28 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Website for macroeconomic enthusiasts" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Website for macroeconomic enthusiasts" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -447,6 +556,42 @@
       <sortByType PackagesPane="false" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,102 +678,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
+              <option name="myItemId" value="integrationtest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="economics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="economics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="208" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="243" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="Errors" />
-    <property name="project.structure.side.proportion" value="0.37624466" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="905" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="858" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="235" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.vcses" />
+    <property name="project.structure.side.proportion" value="0.37624466" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -684,6 +783,40 @@
       </option>
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DatabaseVersionFinderTest.testCanRetrieveValue" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="economics.dependencies.schemamigrations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="economy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="economics.dependencies.schemamigrations" />
+      <option name="MAIN_CLASS_NAME" value="economics.dependencies.schemamigrations.DatabaseVersionFinderTest" />
+      <option name="METHOD_NAME" value="testCanRetrieveValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57950" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -743,6 +876,48 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" class_name="" html_or_swf_file_path="" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" port="0" run_mode="HtmlOrSwfFile" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="snapshooter" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -967,11 +1142,17 @@
       <module name="economy" />
       <envs />
       <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57737" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="57440" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -1087,7 +1268,13 @@
         <value defaultName="wholeProject" />
       </option>
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57943" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1138,20 +1325,21 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <list size="13">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SqlScriptTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseVersionFinderTest.createsSchemaVersionTableIfOneDoesntExist" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseVersionFinderTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ScriptFileManagerTest.testFindAllTheSqlsByNumber" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ScriptFileManagerTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Jetty" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.GdpPullingActionIntegrationTest.testGetResponseFromFed" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.MessagePullerIntegrationTest.testGetResponseFromFed" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.XmlToGdpUnmarshallerTest.testConvertXmlToObject" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.XmlToGdpUnmarshallerTest" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.allUnitTest" />
-      <item index="11" class="java.lang.String" itemvalue="Tomcat Server.gdp" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.SqlTasksRunnerTest" />
+    <list size="14">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SqlTasksRunnerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SqlScriptTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseVersionFinderTest.createsSchemaVersionTableIfOneDoesntExist" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseVersionFinderTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ScriptFileManagerTest.testFindAllTheSqlsByNumber" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ScriptFileManagerTest" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Jetty" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.GdpPullingActionIntegrationTest.testGetResponseFromFed" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.MessagePullerIntegrationTest.testGetResponseFromFed" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.XmlToGdpUnmarshallerTest.testConvertXmlToObject" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.XmlToGdpUnmarshallerTest" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.allUnitTest" />
+      <item index="12" class="java.lang.String" itemvalue="Tomcat Server.gdp" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.DatabaseVersionFinderTest.testCanRetrieveValue" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1212,24 +1400,24 @@
     <frame x="-8" y="-8" width="1696" height="1006" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45369285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19029851" sideWeight="0.24416135" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3634232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5369285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946696" sideWeight="0.61464965" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47664544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3130129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24618992" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590857" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19029851" sideWeight="0.12951168" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.049693253" sideWeight="0.7491208" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18650307" sideWeight="0.4912075" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19018404" sideWeight="0.7491208" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24267292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23190184" sideWeight="0.4912075" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50058615" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16311301" sideWeight="0.5276008" order="2" side_tool="false" content_ui="tabs" />
@@ -1280,110 +1468,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/DatabaseSessionCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/derby/derbyclient/10.5.3.0/derbyclient-10.5.3.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46575344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="34" selection-start="2277" selection-end="2277" vertical-scroll-proportion="1.6685185" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/ScriptFileManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="349" selection-end="349" vertical-scroll-proportion="0.3292978" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/ScriptFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="51" selection-end="51" vertical-scroll-proportion="0.020581113" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/GDPMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.18523003" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_16/src.zip!/java/io/DataInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="24" selection-start="18801" selection-end="18801" vertical-scroll-proportion="0.0">
+        <state line="51" column="82" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.512476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/integrationtest/economics/dependencies/schemamigrations/DatabaseVersionFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="517" selection-end="517" vertical-scroll-proportion="0.5240848">
+        <state line="40" column="37" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlScript.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_16/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.84393066">
+        <state line="157" column="12" selection-start="7406" selection-end="7406" vertical-scroll-proportion="0.9229287">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_16/src.zip!/java/io/BufferedReader.java">
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseVersionFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="15" selection-start="5254" selection-end="5254" vertical-scroll-proportion="1.211946">
+        <state line="24" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.6296296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_16/src.zip!/javax/xml/bind/helpers/AbstractUnmarshallerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="0" selection-start="6709" selection-end="6709" vertical-scroll-proportion="0.22751322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="688" selection-end="688" vertical-scroll-proportion="0.2771739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/DatabaseProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="467" selection-end="467" vertical-scroll-proportion="0.6895943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_16/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="12" selection-start="13586" selection-end="13586" vertical-scroll-proportion="0.7219388">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/economics/dependencies/schemamigrations/SqlTasksRunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="757" selection-end="757" vertical-scroll-proportion="0.78612715">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.63457763">
+        <state line="30" column="58" selection-start="973" selection-end="973" vertical-scroll-proportion="0.8520408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/database.vm">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources/database/1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="686" selection-end="686" vertical-scroll-proportion="0.75298125">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/GDPRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/RawDatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="349" selection-end="362" vertical-scroll-proportion="0.30555555">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/action/GdpPullingAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="722" selection-end="722" vertical-scroll-proportion="0.4722222">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/action/DatabaseInitAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="75" selection-start="902" selection-end="902" vertical-scroll-proportion="0.6111111">
+        <state line="51" column="20" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.5229592">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/framework/SQLiteDialect.java">
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/schemamigrations/SqlTasksRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6666666">
+        <state line="26" column="42" selection-start="674" selection-end="674" vertical-scroll-proportion="0.59183675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.26020408">
           <folding />
         </state>
       </provider>
@@ -1394,8 +1586,16 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl />
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                  <option value="0.5" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
           </splitter-proportions>
+          <last-edited>economy:Web exploded</last-edited>
           <settings />
         </UIState>
       </state>

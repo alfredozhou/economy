@@ -3,3 +3,5 @@ economy.iws
 projectFilesBackup/*
 1.db
 target/*
+database/*
+derby.log

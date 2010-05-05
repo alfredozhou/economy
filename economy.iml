@@ -70,8 +70,7 @@
     <orderEntry type="library" exported="" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" level="project" />
     <orderEntry type="library" exported="" name="Maven: log4j:log4j:1.2.14" level="project" />
     <orderEntry type="library" exported="" name="Maven: javassist:javassist:3.4.GA" level="project" />
-    <orderEntry type="library" exported="" name="Maven: org.xerial:sqlite-jdbc:3.6.15" level="project" />
-    <orderEntry type="library" exported="" name="Maven: org.xerial.thirdparty:nestedvm:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.apache.derby:derby:10.4.2.0" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.apache.ant:ant:1.7.0" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.apache.ant:ant-launcher:1.7.0" level="project" />
     <orderEntry type="library" exported="" name="Maven: com.google.code.google-collections:google-collect:snapshot-20080530" level="project" />

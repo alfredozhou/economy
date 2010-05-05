@@ -23,9 +23,9 @@ public class DatabaseVersionFinder {
          return rawConnection.runQuery("select version from schema_version", "version");
       } catch (SQLException e) {
          String message = e.getMessage();
-         if (message.toLowerCase().contains("no such table")) {
-            boolean createdTable = runUpdates("create table schema_version (version integer);");
-            boolean insertedValue = runUpdates("insert into  schema_version (version) values (0);");
+         if (message.toLowerCase().contains("does not exist")) {
+            boolean createdTable = runUpdates("create table schema_version (version integer)");
+            boolean insertedValue = runUpdates("insert into  schema_version (version) values (0)");
             if (createdTable && insertedValue)
                return 0;
          }
