@@ -1,44 +1,24 @@
 package economics.controller;
 
-import economics.dependencies.EconomicProperties;
+import economics.dependencies.*;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.stereotype.*;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
+import java.io.*;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
-
-@Repository
+@Component
 public class MessagePuller {
-    private EconomicProperties properties;
+   private UrlMaker urlMaker;
+   private FedStringReader stringReader;
+   
+   @Autowired
+   public MessagePuller(UrlMaker urlMaker, FedStringReader stringReader) {
+      this.urlMaker = urlMaker;
+      this.stringReader = stringReader;
+   }
 
-    @Autowired
-    public MessagePuller(EconomicProperties properties) {
-        this.properties = properties;
-    }
-
-    public String pullMessageFromFed() throws IOException {
-        BufferedReader reader = talkToFed();
-        return readFromFed(reader);
-    }
-
-    private BufferedReader talkToFed() throws IOException {
-        URL url = new URL(properties.getUrlForGdp());
-        URLConnection uc = url.openConnection();
-        InputStream inputStream = uc.getInputStream();
-        return new BufferedReader(new InputStreamReader(inputStream));
-    }
-
-    private String readFromFed(BufferedReader reader) throws IOException {
-        StringBuffer buffer = new StringBuffer();
-        String line;
-        while (( line = reader.readLine()) != null) {
-            buffer.append(line);
-        }
-        return buffer.toString();
-    }
+   public String pullMessageFromFed(KeysToFedNumbers fedSeriesName) throws IOException {
+      String url = urlMaker.constructUrl(fedSeriesName);
+      return stringReader.readStringFromFed(url);
+   }
 }

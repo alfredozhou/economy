@@ -2,8 +2,6 @@ package economics.controller;
 
 import economics.dependencies.*;
 import economics.model.*;
-import org.apache.commons.collections.*;
-import org.hibernate.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 
@@ -13,7 +11,7 @@ import java.util.*;
  * Date: Apr 29, 2010
  * Time: 12:59:05 PM
  */
-@Repository
+@Component
 public class GDPRepository {
    private DatabaseSessionCreator databaseSession;
    private GDPMaker puller;
@@ -25,7 +23,7 @@ public class GDPRepository {
    }
 
    public void saveGdpIntoDatabase() {
-      List<Observation> gdpPerYear = puller.getGDPsFromFed();
+      List<Observation> gdpPerYear = puller.getValuesFromFed(KeysToFedNumbers.GDP);
       databaseSession.save(gdpPerYear);    
    }
 

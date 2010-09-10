@@ -19,7 +19,7 @@ public class GDPRepositoryTest extends MockitoTestCase {
       GDPRepository repository = new GDPRepository(database, gdpMaker);
       repository.saveGdpIntoDatabase();
 
-      order.verify(gdpMaker).getGDPsFromFed();
+      order.verify(gdpMaker).getValuesFromFed(KeysToFedNumbers.GDP);
       order.verify(database).save(Mockito.anyList());
    }
 }

@@ -12,7 +12,7 @@ import java.util.*;
  * Date: Apr 29, 2010
  * Time: 3:21:27 PM
  */
-@Repository
+@Component
 public class GDPMaker {
    private MessagePuller pullMessage;
    private XmlToGdpUnmarshaller toObservationsConverter;
@@ -23,9 +23,9 @@ public class GDPMaker {
       this.toObservationsConverter = toObservationsConverter;
    }
 
-   public List<Observation> getGDPsFromFed() {
+   public List<Observation> getValuesFromFed(KeysToFedNumbers fedSeriesName) {
       try {
-         String xmlFromFed = pullMessage.pullMessageFromFed();
+         String xmlFromFed = pullMessage.pullMessageFromFed(fedSeriesName);
          Observations observations = toObservationsConverter.convertGdpFromXmlToObject(xmlFromFed);
          return observations.getObservation();
       } catch (IOException e) {

@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  * Date: Apr 29, 2010
  * Time: 1:01:43 PM
  */
-@Repository
+@Component
 public class DatabaseSessionCreator {
    private SessionFactory sessionFactory;
 
