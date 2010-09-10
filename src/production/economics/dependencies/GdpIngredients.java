@@ -9,8 +9,6 @@ import org.springframework.stereotype.*;
 import java.math.*;
 import java.util.*;
 
-import static economics.dependencies.GDPCalculation.gdpIs;
-
 /**
  * Date: Sep 10, 2010
  * Time: 1:34:03 PM
@@ -25,10 +23,12 @@ public class GdpIngredients {
    private List<Observation> imports;
    private List<Observation> exports;
    private FedObservationFetcher observationFetcher;
+   private ObservationFinder finder;
 
    @Autowired
-   public GdpIngredients(FedObservationFetcher observationFetcher) {
+   public GdpIngredients(FedObservationFetcher observationFetcher, ObservationFinder finder) {
       this.observationFetcher = observationFetcher;
+      this.finder = finder;
       allDataFromFed();
    }
 
@@ -42,17 +42,15 @@ public class GdpIngredients {
       exports = observationFetcher.getValuesFromFed(KeysToFedNumbers.exports);
    }
 
-   public BigDecimal calculate(DateTime today) {
-      return gdpIs(today)
-            .plus(personalConsumption)
-            .plus(government)
-            .plus(business)
-            .plus(residential)
-            .plus(exports)
-            .minus(imports)
-            .times(deflator)
-            .calculate();
+   public GdpComponent get(DateTime date) {
+      BigDecimal consumption = finder.find(personalConsumption, date);
+      BigDecimal govt = finder.find(government, date);
+      BigDecimal biz = finder.find(business, date);
+      BigDecimal residencial = finder.find(residential, date);
+      BigDecimal exportts = finder.find(exports, date);
+      BigDecimal importsd = finder.find(imports, date);
+      BigDecimal deflate = finder.find(deflator, date);
+      return new GdpComponent(consumption, govt, biz, residencial, exportts, importsd, deflate);
    }
-
 
 }

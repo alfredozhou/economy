@@ -55,17 +55,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="50a4ff33-07ce-4f99-a513-f3f45194ac3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/calculation.vm" afterPath="$PROJECT_DIR$/web/WEB-INF/view/calculation.vm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/Observations.java" afterPath="$PROJECT_DIR$/src/production/economics/model/Observations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/production/economics/model/GdpComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java" afterPath="$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/economics/model/GdpComponentTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/Observation.java" afterPath="$PROJECT_DIR$/src/production/economics/model/Observation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/action/GdpCalculationAction.java" afterPath="$PROJECT_DIR$/src/production/economics/action/GdpCalculationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/production/economics/model/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/production/economics/model/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/production/economics/dependencies/ObservationFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/economy.iws" afterPath="$PROJECT_DIR$/economy.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-settings.xml" afterPath="$PROJECT_DIR$/build-settings.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -163,19 +160,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MessagePuller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/production/economics/controller/MessagePuller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GdpCalculationAction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GdpCalculationAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/production/economics/action/GdpCalculationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="46" selection-start="705" selection-end="705" vertical-scroll-proportion="0.7921147">
+            <state line="29" column="53" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,19 +171,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculation.vm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/calculation.vm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="32" selection-start="978" selection-end="988" vertical-scroll-proportion="-7.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GdpIngredients.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="22" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
+            <state line="55" column="25" selection-start="1722" selection-end="1947" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,8 +185,48 @@
       <file leaf-file-name="GDPCalculation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="7" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+            <state line="39" column="68" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GDPCalculationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="1" selection-start="507" selection-end="1790" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObservationFinder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/ObservationFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="21" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GdpComponent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/production/economics/model/GdpComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GdpComponentTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/economics/model/GdpComponentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="53" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.7993139">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,9 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/FedStringReader.java" />
-        <option value="$PROJECT_DIR$/src/integrationtest/economics/controller/MessagePullerIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/integrationtest/economics/controller/MessagePullerTest.java" />
         <option value="$PROJECT_DIR$/src/production/economics/dependencies/EconomicProperties.java" />
         <option value="$PROJECT_DIR$/src/production/economics/controller/UrlMaker.java" />
         <option value="$PROJECT_DIR$/src/production/economics/controller/GDPMaker.java" />
@@ -237,11 +253,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd" />
         <option value="$PROJECT_DIR$/build-settings.xml" />
-        <option value="$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java" />
-        <option value="$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/calculation.vm" />
         <option value="$PROJECT_DIR$/src/production/economics/action/GdpCalculationAction.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/model/GdpComponent.java" />
+        <option value="$PROJECT_DIR$/src/production/economics/dependencies/ObservationFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/economics/model/GdpComponentTest.java" />
       </list>
     </option>
   </component>
@@ -884,11 +903,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="economics.model" />
       <recent name="economics.dependencies" />
       <recent name="economics.controller" />
       <recent name="economics.dependencies.schemamigrations" />
       <recent name="economics.action" />
-      <recent name="economics.gdp" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="economics.dependencies.WebServiceFactory" />
@@ -897,6 +916,7 @@
       <recent name="economics.MockitoTestCase" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="economics.model" />
       <recent name="economics.dependencies.schemamigrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1636,14 +1656,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3121019" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24522293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590234" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32590234" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19029851" sideWeight="0.12951168" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2433155" sideWeight="0.6210191" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16149732" sideWeight="0.6210191" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2433155" sideWeight="0.6666667" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16149732" sideWeight="0.6666667" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3715499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3715499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1670,7 +1690,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a new action to calculate gdp" />
+    <option name="LAST_COMMIT_MESSAGE" value="now the action works!!!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1684,6 +1704,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="adding a new action to calculate gdp" />
+    <MESSAGE value="now the action works!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1697,27 +1718,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/UrlMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/FedStringReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/FedObservationFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources/gdpMessageFormat.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="65" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.7921147">
@@ -1753,32 +1753,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="28" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.5716846">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/KeysToFedNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="4" selection-start="419" selection-end="419" vertical-scroll-proportion="0.6296296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/MessagePuller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="7" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1790,25 +1767,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/calculation.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="57" column="7" selection-start="1527" selection-end="1527" vertical-scroll-proportion="1.9">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/calculation.vm">
+    <entry file="file://$PROJECT_DIR$/src/production/economics/controller/MessagePuller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="978" selection-end="988" vertical-scroll-proportion="-7.24">
+        <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.1588785">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/production/economics/action/GdpCalculationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="705" selection-end="705" vertical-scroll-proportion="0.7921147">
+        <state line="29" column="53" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/ObservationFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GdpIngredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="25" selection-start="1722" selection-end="1947" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/economics/dependencies/GDPCalculationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="507" selection-end="1790" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/economics/model/GdpComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/economics/dependencies/GDPCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="68" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/economics/model/GdpComponentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="53" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.7993139">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

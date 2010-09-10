@@ -26,8 +26,8 @@ public class GdpCalculationAction {
    public ModelAndView performAction(String dateWanted) throws IOException {
       DateTime dateTime = gdpTimeWanted(dateWanted);
       ModelAndView modelAndView = new ModelAndView("calculation");
-      modelAndView.addObject("value", ingredients.calculate(dateTime));
       modelAndView.addObject("year", dateTime);
+      modelAndView.addObject("value", ingredients.get(dateTime));
       return modelAndView;
    }
 
