@@ -1,5 +1,5 @@
 <project name="economy-settings">
-<property name="appserver.home" value="C:\Program Files\Apache Software Foundation\apache-tomcat-5.5.28"/>
+<property name="appserver.home" value="C:\apache-tomcat-5.5.28"/>
 <!--<property name="appserver.home" value="C:\Users\zxzhou\Tools\apache-tomcat-6.0.20"/>-->
-<property name="appserver.lib" value="${appserver.home}/lib"/>
+<property name="appserver.lib" value="${appserver.home}/common/lib"/>
 </project>

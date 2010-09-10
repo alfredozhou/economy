@@ -24,13 +24,15 @@ public class GdpIngredients {
    private List<Observation> residential;
    private List<Observation> imports;
    private List<Observation> exports;
+   private FedObservationFetcher observationFetcher;
 
    @Autowired
    public GdpIngredients(FedObservationFetcher observationFetcher) {
-      allDataFromFed(observationFetcher);
+      this.observationFetcher = observationFetcher;
+      allDataFromFed();
    }
 
-   private void allDataFromFed(FedObservationFetcher observationFetcher) {
+   public void allDataFromFed() {
       government = observationFetcher.getValuesFromFed(KeysToFedNumbers.government);
       business = observationFetcher.getValuesFromFed(KeysToFedNumbers.business);
       deflator = observationFetcher.getValuesFromFed(KeysToFedNumbers.deflator);

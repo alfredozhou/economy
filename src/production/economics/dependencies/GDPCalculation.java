@@ -32,7 +32,17 @@ public class GDPCalculation {
             return dateString.equals(desiredDate);
          }
       });
-      return desiredObservation.getValue();
+      return getBigDecimal(desiredObservation.getValue());
+   }
+
+   private BigDecimal getBigDecimal(String desiredValue) {
+      BigDecimal bigDecimal;
+      try {
+         bigDecimal = new BigDecimal(desiredValue);
+      } catch (NumberFormatException e) {
+         bigDecimal = new BigDecimal(0);
+      }
+      return bigDecimal;
    }
 
    public GDPCalculation plus(List<Observation> observations) {
@@ -41,12 +51,12 @@ public class GDPCalculation {
    }
 
    public GDPCalculation minus(List<Observation> observations) {
-      value= value.subtract(find(observations));
+      value = value.subtract(find(observations));
       return this;
    }
 
    public GDPCalculation times(List<Observation> deflator) {
-      BigDecimal deflatorValue = new BigDecimal(100).divide(find(deflator));
+      BigDecimal deflatorValue = new BigDecimal("100.00").divide(find(deflator), 3, RoundingMode.HALF_UP);
       value = value.multiply(deflatorValue);
       return this;
    }

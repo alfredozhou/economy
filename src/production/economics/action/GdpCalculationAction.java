@@ -23,13 +23,20 @@ public class GdpCalculationAction {
    }
 
    @RequestMapping("/calculate")
-   public ModelAndView performAction() throws IOException {
-      DateTime today = new DateTime();
-      DateTime lastYear = today.minusYears(1);
+   public ModelAndView performAction(String dateWanted) throws IOException {
+      DateTime dateTime = gdpTimeWanted(dateWanted);
       ModelAndView modelAndView = new ModelAndView("calculation");
-      modelAndView.addObject("value", ingredients.calculate(lastYear));
-      modelAndView.addObject("year", lastYear);
+      modelAndView.addObject("value", ingredients.calculate(dateTime));
+      modelAndView.addObject("year", dateTime);
       return modelAndView;
+   }
+
+   private DateTime gdpTimeWanted(String dateWanted) {
+      if (dateWanted == null) {
+         DateTime today = new DateTime();
+         return today.minusYears(1);
+      }
+      return new DateTime(dateWanted);
    }
 
 }

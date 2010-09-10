@@ -24,7 +24,7 @@
       <xs:attribute name="date" use="required" type="xs:NMTOKEN"/>
       <xs:attribute name="realtime_end" use="required" type="xs:NMTOKEN"/>
       <xs:attribute name="realtime_start" use="required" type="xs:NMTOKEN"/>
-      <xs:attribute name="value" use="required" type="xs:decimal"/>
+      <xs:attribute name="value" use="required" type="xs:NMTOKEN"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

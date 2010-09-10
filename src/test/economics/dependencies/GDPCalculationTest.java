@@ -24,9 +24,9 @@ public class GDPCalculationTest extends MockitoTestCase {
    private Observation wantedObservation, notWantedObservation;
    @Mock
    private Observation wantedDeflator, notWantedDeflator;
-   private BigDecimal thousand = new BigDecimal(1000);
-   private BigDecimal hundred = new BigDecimal(100);
-   private BigDecimal eighty = new BigDecimal(80);
+   private String thousand = "1000";
+   private String hundred = "100";
+   private String eighty = "80";
 
    @Override
    protected void setUp() throws Exception {
@@ -45,7 +45,15 @@ public class GDPCalculationTest extends MockitoTestCase {
             .plus(observations())
             .times(deflators())
             .calculate();
-      assertThat(value, equalTo(thousand.add(thousand).multiply(hundred.divide(eighty))));
+      assertThat(value, equalTo(new BigDecimal("2500.00")));
+   }
+
+
+   public void testInvalidValues() throws Exception {
+      when(wantedObservation.getValue()).thenReturn(".");
+      when(wantedDeflator.getValue()).thenReturn("Asdf");
+      BigDecimal value = gdpIs(date).plus(observations()).calculate();
+      assertThat(value, equalTo(new BigDecimal(0)));
    }
 
    private List<Observation> deflators() {

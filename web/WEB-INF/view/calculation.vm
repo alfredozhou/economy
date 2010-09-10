@@ -3,28 +3,56 @@
 <html>
 <head>
     <title>Last Year GDP</title>
-    <style>
+    <style type="text/css">
+        body {
+            background-color: #dddddd;
+            font-family: "Helvetica", sans-serif;
+        }
+
+        .inputContainer {
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            background-color: white;
+            margin-bottom: 16px;
+        }
+
+        .dateField {
+            font-size: 18pt;
+            font-weight: 500;
+        }
+
         .BodyTableHeader {
             font-weight: bold;
             font-family: monospace;
             font-size: 18pt;
+            padding-left: 23px;
         }
+
         .cellBody {
             border: 1px aqua;
         }
+
     </style>
 </head>
 <body>
 <table width="100%" border="0" cellpadding="3" cellspacing="0" class="BodyTable">
-    <tr>
-        <td class="BodyTableHeader">Year</td>
-        <td class="BodyTableHeader">US GDP in Billions</td>
-    </tr>
+    <div class="inputContainer">
+        <form action="/calculate" method="post">
+            <label class="dateField" for="inputField"> Date Wanted:
+                <input type="text" id="inputField" name="dateWanted"/>
+            </label>
+            <input type="submit" value="Calculate"/>
+        </form>
+        <tr>
+            <td class="BodyTableHeader">Year</td>
+            <td class="BodyTableHeader">US GDP in Billions</td>
+        </tr>
 
-    <tr>
-        <td class="cellBody">$year</td>
-        <td class="cellBody">$value</td>
-    </tr>
+        <tr>
+            <td class="cellBody">$year</td>
+            <td class="cellBody">$value</td>
+        </tr>
+    </div>
 </table>
 </body>
 </html>
