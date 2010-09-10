@@ -1,0 +1,30 @@
+#* @vtlvariable name="year" type="org.joda.time.DateTime" *#
+#* @vtlvariable name="value" type="java.math.BigDecimal" *#
+<html>
+<head>
+    <title>Last Year GDP</title>
+    <style>
+        .BodyTableHeader {
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 18pt;
+        }
+        .cellBody {
+            border: 1px aqua;
+        }
+    </style>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="3" cellspacing="0" class="BodyTable">
+    <tr>
+        <td class="BodyTableHeader">Year</td>
+        <td class="BodyTableHeader">US GDP in Billions</td>
+    </tr>
+
+    <tr>
+        <td class="cellBody">$year</td>
+        <td class="cellBody">$value</td>
+    </tr>
+</table>
+</body>
+</html>

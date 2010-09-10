@@ -14,10 +14,10 @@ import java.util.*;
 @Component
 public class GDPRepository {
    private DatabaseSessionCreator databaseSession;
-   private GDPMaker puller;
+   private FedObservationFetcher puller;
 
    @Autowired
-   public GDPRepository(DatabaseSessionCreator databaseSession, GDPMaker gdpPuller) {
+   public GDPRepository(DatabaseSessionCreator databaseSession, FedObservationFetcher gdpPuller) {
       this.databaseSession = databaseSession;
       this.puller = gdpPuller;
    }

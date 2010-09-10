@@ -13,12 +13,12 @@ import java.util.*;
  * Time: 3:21:27 PM
  */
 @Component
-public class GDPMaker {
+public class FedObservationFetcher {
    private MessagePuller pullMessage;
    private XmlToGdpUnmarshaller toObservationsConverter;
 
    @Autowired
-   public GDPMaker(MessagePuller fedStringPuller, XmlToGdpUnmarshaller toObservationsConverter) {
+   public FedObservationFetcher(MessagePuller fedStringPuller, XmlToGdpUnmarshaller toObservationsConverter) {
       this.pullMessage = fedStringPuller;
       this.toObservationsConverter = toObservationsConverter;
    }
