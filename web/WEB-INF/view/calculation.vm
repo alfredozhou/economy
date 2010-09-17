@@ -1,5 +1,5 @@
 #* @vtlvariable name="year" type="org.joda.time.DateTime" *#
-#* @vtlvariable name="value" type="java.math.BigDecimal" *#
+#* @vtlvariable name="gdpComponent" type="economics.model.GdpComponent" *#
 <html>
 <head>
     <title>Last Year GDP</title>
@@ -14,9 +14,10 @@
             -moz-border-radius: 5px;
             background-color: white;
             margin-bottom: 16px;
+            width: 400px;
         }
 
-        .dateField {
+        .label {
             font-size: 18pt;
             font-weight: 500;
         }
@@ -38,7 +39,7 @@
 <table width="100%" border="0" cellpadding="3" cellspacing="0" class="BodyTable">
     <div class="inputContainer">
         <form action="/calculate" method="post">
-            <label class="dateField" for="inputField"> Date Wanted:
+            <label class="label" for="inputField"> Date Wanted:
                 <input type="text" id="inputField" name="dateWanted"/>
             </label>
             <input type="submit" value="Calculate"/>
@@ -50,9 +51,47 @@
 
         <tr>
             <td class="cellBody">$year</td>
-            <td class="cellBody">$value</td>
+            <td class="cellBody">$gdpComponent.calculate()</td>
         </tr>
     </div>
+
+    <tr>
+        <td class="BodyTableHeader">Personal Consumption</td>
+        <td class="cellBody">$gdpComponent.getPersonalConsumption()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Business Investments</td>
+        <td class="cellBody">$gdpComponent.getBusinessInvestment()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Residential Investments</td>
+        <td class="cellBody">$gdpComponent.getResidentialInvestment()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Government Expenditures</td>
+        <td class="cellBody">$gdpComponent.getGovernmentExpenditure()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Exports</td>
+        <td class="cellBody">$gdpComponent.getExports()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Imports</td>
+        <td class="cellBody">$gdpComponent.getImports()</td>
+    </tr>
+    <tr>
+        <td class="BodyTableHeader">Deflators</td>
+        <td class="cellBody">$gdpComponent.getDeflator()</td>
+    </tr>
 </table>
+<div class="inputContainer label" >
+    GDP = <br/>
+    (Personal Consumption + <br/>
+    Business Investments + <br/>
+    Residential Investments +<br/>
+    Government Expenditures +<br/>
+    Exports - Imports) <br/>
+    * 100 / Deflators
+</div>
 </body>
 </html>

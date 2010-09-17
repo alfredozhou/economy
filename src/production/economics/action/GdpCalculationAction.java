@@ -27,7 +27,7 @@ public class GdpCalculationAction {
       DateTime dateTime = gdpTimeWanted(dateWanted);
       ModelAndView modelAndView = new ModelAndView("calculation");
       modelAndView.addObject("year", dateTime);
-      modelAndView.addObject("value", ingredients.get(dateTime));
+      modelAndView.addObject("gdpComponent", ingredients.get(dateTime));
       return modelAndView;
    }
 

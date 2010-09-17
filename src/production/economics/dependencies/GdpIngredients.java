@@ -32,7 +32,7 @@ public class GdpIngredients {
       allDataFromFed();
    }
 
-   public void allDataFromFed() {
+   private void allDataFromFed() {
       government = observationFetcher.getValuesFromFed(KeysToFedNumbers.government);
       business = observationFetcher.getValuesFromFed(KeysToFedNumbers.business);
       deflator = observationFetcher.getValuesFromFed(KeysToFedNumbers.deflator);
